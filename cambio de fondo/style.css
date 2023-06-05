@@ -1,8 +1,21 @@
 body{
     color:black;
     background-color: white;
+    
 }
 .letraBlanca{
     color:white;
     background-color: black;
+}
+.leyenda{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: block;
+    align-items: center;
+    
+}
+input{
+    cursor: pointer;
 }

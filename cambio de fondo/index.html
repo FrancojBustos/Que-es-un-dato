@@ -8,9 +8,56 @@
     <title>Document</title>
   </head>
   <body id="fondo" class="letraNegra">
-    <h1>cambio</h1>
-    <p>FAIFHAIFIFASNFONAFSAF</p>
-    <button id="fondo">Cambiar color</button>
+    <div class="container text-center">
+      <h1>Configuracion personal</h1>
+
+      <p>Tu zona horaria</p>
+      <select class="form-select" aria-label="Default select example">
+        <option selected></option>
+        <option value="1">America/Buenos Aires</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <p class="leyenda">
+        Define tu configuración de zona horaria en tu pagina principal
+      </p>
+      <br />
+      <p>Idioma</p>
+      <select class="form-select" aria-label="Default select example">
+        <option selected></option>
+        <option value="1">Español(España)</option>
+        <option value="2">Ingles</option>
+        <option value="3">Portugues</option>
+      </select>
+      <p class="leyenda">
+        Define la configuración de idioma en tu página de configuración de
+        perfil
+      </p>
+      <br />
+      <p>Notificaciones</p>
+      <select class="form-select" aria-label="Default select example">
+        <option selected></option>
+        <option value="1">Enviarme notificaciones por correo</option>
+        <option value="2">No enviarme notificaciones por correo</option>
+      </select>
+      <p class="leyenda">
+        Recibe avisos por correo electrónico de actividad de incidencias cuando
+        ocurra lo siguiente:
+      </p>
+
+      <p><input type="checkbox" />Te esta siguiendo un usuario</p>
+      <p><input type="checkbox" />Comentarios de tus post</p>
+      <p><input type="checkbox" />Alguien te menciona</p>
+      <p><input type="checkbox" />Te envian mensajes</p>
+
+      <p>Cambiar de tema</p>
+      <button id="boton">Cambiar color</button>
+      <br /><br />
+      <button id="boton">Guardar cambios</button>
+    </div>
+    <p>¿Tienes comentarios?</p>
+    <a href="">Cuentanos</a>
+
     <script src="main.js"></script>
   </body>
 </html>
