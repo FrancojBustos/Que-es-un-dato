@@ -1,4 +1,5 @@
 const textarea = document.getElementById("textarea1");
+
 function f1(e) {
     let value = e.value;
     textarea.style.fontSize = value + "px";
@@ -66,3 +67,11 @@ function f10(e) {
 window.addEventListener('load', () => {
     textarea.value = "";
 });
+
+const actualBtn = document.getElementById('actual-btn');
+
+const fileChosen = document.getElementById('file-chosen');
+
+actualBtn.addEventListener('change', function(){
+  fileChosen.textContent = this.files[0].name
+})

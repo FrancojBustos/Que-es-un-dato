@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/df6e0f43b0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="editorStyle.css">
     <title>Editor de Texto</title>
 </head>
@@ -12,7 +13,7 @@
         <div class="row">
             <div class="col">
                 <div class="first box">
-                    <input id="font-size" type="number" value="18" min="18" max="80" onchange="f1(this)">
+                    <input id="font-size" type="number" value="20" min="18" max="80" onchange="f1(this)">
                 </div>
                 <div class="second box">
                     <button type="button" onclick="f2 (this)">
@@ -43,6 +44,10 @@
                     </button>
                     <input type="color" onchange="f10(this)">
                 </div>
+                <div class="fifth box">
+                    <input type="file" id="actual-btn" hidden/>
+                    <label for="actual-btn">Choose File</label>
+                </div>
             </div>
         </div>
         <br>
@@ -53,5 +58,6 @@
         </div>
     </div>
     <script src="editor.js"></script>
+
 </body>
 </html>
