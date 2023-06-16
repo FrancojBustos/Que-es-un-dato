@@ -9,64 +9,37 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-    <div class="flex justify-center items-center h-screen">
-      <div class="p-4">
-        <input type="text" class="search-input border border-gray-300 px-4 py-2 rounded-md" placeholder="Search...">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Search</button>
+
+    <header class="bg-gray-800 text-white p-4">
+      <div class="container mx-auto flex items-center justify-between">
+        <img class="max-h-12" src="logo/Mi proyecto(1).png" >
+        <h1 class="text-xl font-bold">Lorem5</h1>
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Inicio</a></li>
+            <li><a href="#" class="hover:text-gray-300">Acerca de</a></li>
+            <li><a href="#" class="hover:text-gray-300">Servicios</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contacto</a></li>
+          </ul>
+        </nav>
       </div>
-    </div>
     </header>
-    <aside>
-        <div class="flex">
-            <div class="w-1/4 bg-gray-200 p-4">
-              <h2 class="text-lg font-bold mb-4">Sidebar</h2>
-              <ul>
-                <li class="mb-2">
-                  <a href="#" class="block text-blue-500 hover:underline">Home</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" class="block text-blue-500 hover:underline">About</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" class="block text-blue-500 hover:underline">Services</a>
-                </li>
-                <li class="mb-2">
-                  <a href="#" class="block text-blue-500 hover:underline">Contact</a>
-                </li>
-              </ul>
-            </div>
-            <div class="w-3/4 p-4">
-              <h2 class="text-lg font-bold mb-4">Content</h2>
-              <div class="flex flex-wrap -m-4">
-                <div class="w-1/2 p-4">
-                  <div class="bg-white border border-gray-300 rounded p-4">
-                    <h3 class="text-lg font-bold mb-2">Card 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                </div>
-                <div class="w-1/2 p-4">
-                  <div class="bg-white border border-gray-300 rounded p-4">
-                    <h3 class="text-lg font-bold mb-2">Card 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                </div>
-                <div class="w-1/2 p-4">
-                  <div class="bg-white border border-gray-300 rounded p-4">
-                    <h3 class="text-lg font-bold mb-2">Card 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                </div>
-                <div class="w-1/2 p-4">
-                  <div class="bg-white border border-gray-300 rounded p-4">
-                    <h3 class="text-lg font-bold mb-2">Card 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </div>
-                </div>
-              </div>
+  <!-- -------------------------------------- -->
+  <div class="flex">
+    <main class="w-3/4">
+      <div class="w-3/4 p-4">
+          <h2 class="text-lg font-bold mb-4">Content</h2>
+        <div class="flex flex-nowrap -m-4">
+          <div class="w-1/2 p-4">
+            <div class="bg-e0d6c8 shadow border border-gray-300 rounded-lg p-4 w-30vw">
+              <h3 class="text-lg font-bold mb-2 ">Card 1</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-    </aside>
+      </div>
+    </main>
+  </div>
+  
   </body>
   </html>
 </html>
