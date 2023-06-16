@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #00fa9a;
+    background-color: #1f2937;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -83,7 +83,7 @@ textarea {
     resize: vertical;
 }
 label {
-    background-color: #00C957;
+    background-color: #35e6ff;
     color: white;
     padding: 0.5rem;
     font-family: sans-serif;
@@ -91,3 +91,10 @@ label {
     cursor: pointer;
     margin-top: 1rem;
   }
+#textarea2{
+    padding-top: 5rem;
+    border: 1px solid #ccc;
+  /*   padding: 5px; */
+    min-height: 100px;
+    cursor: text;
+}

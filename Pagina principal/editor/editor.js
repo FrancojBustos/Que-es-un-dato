@@ -75,3 +75,27 @@ const fileChosen = document.getElementById('file-chosen');
 actualBtn.addEventListener('change', function(){
   fileChosen.textContent = this.files[0].name
 })
+
+textarea.addEventListener("input", function() {
+    let links = mytextarea.value.match(/https?:\/\/[^\s]+/g);
+    for ( let i = 0; i < links.length; i++) {
+        var link = document.createElement("a");
+        link.href = links[i];
+        link.textContent = links[i];
+        textarea.appendChild(link);
+    }
+});
+
+document.getElementById("textarea1").addEventListener("click", function(event) {
+    let selection = window.getSelection();
+    let range = selection.getRangeAt(0);
+    let anchorNode = range.commonAncestorContainer.parentNode;
+  
+    if (anchorNode.tagName.toLowerCase() === "a") {
+      let href = anchorNode.getAttribute("href");
+      if (href) {
+        window.open(href, "_blank");
+        event.preventDefault();
+      }
+    }
+  });
