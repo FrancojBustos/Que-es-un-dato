@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body id="fondo" class="letraNegra">
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Foro padres</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Perfibilidad</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seguridad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <h1>Configuracion personal</h1>
+
+          <p>Tu zona horaria</p>
+          <select class="form-select" aria-label="Default select example">
+            <option selected></option>
+            <option value="1">America/Buenos Aires</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <p class="leyenda">
+            Define tu configuración de zona horaria en tu pagina principal
+          </p>
+          <br />
+          <p>Idioma</p>
+          <select class="form-select" aria-label="Default select example">
+            <option selected></option>
+            <option value="1">Español(España)</option>
+            <option value="2">Ingles</option>
+            <option value="3">Portugues</option>
+          </select>
+          <p class="leyenda">
+            Define la configuración de idioma en tu página de configuración de
+            perfil
+          </p>
+          <br />
+          <p>Notificaciones</p>
+          <select class="form-select" aria-label="Default select example">
+            <option selected></option>
+            <option value="1">Enviarme notificaciones por correo</option>
+            <option value="2">No enviarme notificaciones por correo</option>
+          </select>
+          <p class="leyenda">
+            Recibe avisos por correo electrónico de actividad de incidencias
+            cuando ocurra lo siguiente:
+          </p>
+
+          <p><input type="checkbox"/>Alguien te menciona         </p>
+          <p><input type="checkbox"/>Te envian mensajes          </p>
+          <p><input type="checkbox"/>Comentarios de tus post     </p>
+          <p><input type="checkbox"/>Te esta siguiendo un usuario</p>
+          
+          <br>
+          <p>Cambiar de tema</p>
+          <button id="boton">Cambiar color</button>
+          <br /><br />
+          <button id="boton">Guardar cambios</button>
+        </div>
+        <div class="col"></div>
+        </div>
+      </div>
+    </div>
+    <p>¿Tienes comentarios?</p>
+    <a href="/comentarios/comentarios.html">Cuentanos</a>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+    <script src="fondo.js"></script>
+  </body>
+</html>
